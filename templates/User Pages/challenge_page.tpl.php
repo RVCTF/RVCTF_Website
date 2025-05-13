@@ -3,8 +3,8 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-require_once $_SERVER['DOCUMENT_ROOT'] . "/rvctf/backend/includes/connect.inc.php";
-require_once $_SERVER['DOCUMENT_ROOT'] . "/rvctf/backend/includes/verify.inc.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/backend/includes/connect.inc.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/backend/includes/verify.inc.php";
 
 if (!verify_login($conn)) {
     header("Location: /rvctf/index.php?filename=login");
