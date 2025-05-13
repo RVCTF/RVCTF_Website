@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if ($action === 'notstarted') {
         date_default_timezone_set('Asia/Singapore');
-        $start_time = strtotime('2025-05-14 15:30:00');
+        $start_time = strtotime("2025-05-14 15:30:00");
         $end_time = $start_time + 5 * 3600;
     } elseif ($action === 'running') {
         $start_time = time() - 300; // 5 mins ago
