@@ -1,6 +1,6 @@
 <?php
 // // this needs to be commented out for the code to work
-// require_once __DIR__."/../../../private/rvctf_passwords.inc.php";
+require_once __DIR__."/../../../private/rvctf_passwords.inc.php";
 // // this needs to be present when hosting on localhost
 // define("SERVERNAME", "localhost");
 // define("DB_USER", "root");
