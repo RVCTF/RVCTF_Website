@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/ylrdxapi/rvctf.com
+    - export DEPLOYPATH=/home/ylrdxapi/domains/rvctf/
     - /bin/cp index.php $DEPLOYPATH
     - /bin/cp -R static $DEPLOYPATH
     - /bin/cp -R templates $DEPLOYPATH
